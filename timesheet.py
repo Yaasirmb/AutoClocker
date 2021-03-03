@@ -58,5 +58,5 @@ def clocker(button):
         print(traceback.format_exc())
 
     finally:
-        time.sleep(500)
+        time.sleep(15)
         driver.quit()
