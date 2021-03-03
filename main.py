@@ -9,7 +9,7 @@ logging.basicConfig(filename='.\\auto_clocker.log', filemode='a',
 format='%(name)s - %(ascitime)s - %(message)s')
 
 logger = logging.getLogger()
-# Add SMTP logging in the future.
+
 """ Script that clocks me into work based on what time it is. """
 now = datetime.now()
 
